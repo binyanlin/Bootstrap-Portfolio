@@ -1,10 +1,48 @@
 
 .bloom {
     background-image: url("./../images/full-bloom.png");
-    background-size: 100%;
+
 }
 
 /* Used to lower the header so the h2 text */
 .head {
-    margin-bottom: -15px;
+    margin-bottom: -16px;
+}
+
+/* Fixing navbar height */
+.head2 {
+    margin-bottom: -25px;
+}
+
+/* Background border top */
+#bgb {
+    border-top-style: solid !important;
+    border-top-width: 1px !important;
+    border-top-color: #4aaaa5 !important;
+}
+
+/* Fighting bootstrap so my buttons can have non-rounded lower edges */
+#nav1 {
+    border-radius: 0px;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+
+#nav2 {
+    border-radius: 0px;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+
+#nav3 {
+    border-radius: 0px;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+
+/* Used for footer top border */
+#foot {
+    border-top-style: solid !important;
+    border-top-width: 8px !important;
+    border-top-color: #4aaaa5 !important;
 }
