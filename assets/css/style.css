@@ -1,0 +1,10 @@
+
+.bloom {
+    background-image: url("./../images/full-bloom.png");
+    background-size: 100%;
+}
+
+/* Used to lower the header so the h2 text */
+.head {
+    margin-bottom: -15px;
+}
