@@ -15,12 +15,52 @@
     border-top-color: #4aaaa5 !important;
 }
 
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 0 0 100px;
+    /* bottom = footer height */
+}
+
 #foot {
     border-top-style: solid !important;
     border-top-width: 8px !important;
     border-top-color: #16A2B7 !important;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
 }
-/* #hangman {
-    background-image: url("./../images/hangman.png");
-} */
 
+.profPic {
+    width: 100%;
+}
+
+@media (max-width: 640px) {
+    #textP {font-size: 10px;}
+}
+
+@media (max-width: 760px) {
+    #textP {font-size: 12px;}
+}
+
+@media (max-width: 1080px) {
+    #textP {font-size: 14px;}
+}
+
+@media (max-width: 1200px) {
+    #textP {font-size: 18px;}
+}
+
+@media (max-width: 1600px) {
+    #textP {font-size: 16px;}
+    
+}
+
+@media (min-width: 1601px) {
+    #textP {font-size: 20px;}
+}
